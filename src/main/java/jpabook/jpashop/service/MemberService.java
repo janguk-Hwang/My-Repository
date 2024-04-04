@@ -36,7 +36,7 @@ public class MemberService {
         //Exception
         List<Member> findMembers = memberRepository.findByName(member.getName());
         if(!findMembers.isEmpty()){
-            throw new IllegalStateException("이미 존재해서 findMembers가 값을 가지고 있습니다.");
+            throw new IllegalStateException("이미 존재해서 findMembers가 값을 가지고 있습니다.f");
         }
     }
 
